@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+h1 {
+    font-size: 3.4rem;
+    color: goldenrod;
+}
+
+header{
+    display: flex;
+    border: .4rem solid plum;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+main {
+    font-size: 2.5rem;
+    border: .4rem solid lightgreen ;
+    height: 80vh;
+}
+
+.keys {
+    border: .4rem solid crimson;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 90%;
+    align-items: center;
+    justify-items: center;
+ 
+}
+
+.key{
+    border: .4rem solid rgb(216, 216, 5);
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    }
+
+footer {
+    font-size: 1.6rem;
+    border: .4rem solid royalblue;
+    height: 10vh;
+}
